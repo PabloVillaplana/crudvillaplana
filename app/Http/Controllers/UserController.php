@@ -37,11 +37,11 @@ class UserController extends Controller
 
     }
 
+
     public function  create()
     {
         return view('users.create');
     }
-
     public function  store()
     {
 
@@ -77,6 +77,7 @@ class UserController extends Controller
             'email' => ['required' , 'email' , Rule::unique('users')->ignore($user->id)],
             'password' => ''
         ]);
+
 
 
         if ($data['password'] != null){
