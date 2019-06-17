@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel Villaplana
+                    Laravel Juan Pablo Villaplana
                 </div>
 
                 <div class="links">
